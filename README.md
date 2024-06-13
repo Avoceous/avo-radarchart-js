@@ -5,11 +5,12 @@ https://github.com/Avoceous/avo-radarchart-js/assets/63419938/7da52248-875b-40fc
 ![Avoceous RadarChart](https://github.com/Avoceous/avo-radarchart-js/assets/63419938/d8d78b78-de2d-4dab-9306-3ada6346c24e)
 
 
-<script>
+
 // JavaScript Animation & loop for the Radar Chart
 
   var data6 = {
     labels: ['Welcome', 'to', 'Avoceous', 'Github', 'Page'],
+    
     datasets: [
       {
         label: 'Welcome',
@@ -53,14 +54,16 @@ https://github.com/Avoceous/avo-radarchart-js/assets/63419938/7da52248-875b-40fc
   };
 
   // Get the canvas element for the 6th radar chart and render it
-  
+
   var ctx6 = document.getElementById('radarChart6').getContext('2d');
   var radarChart6 = new Chart(ctx6, config6);
+
 
   // Animation loop with clickable legend for the 6th radar chart
   
   function updateChart6() {
     // Update data values (modify as needed)
+    
     data6.datasets.forEach((dataset) => {
       dataset.data = dataset.data.map(() => Math.random() * 10);
     });
@@ -82,5 +85,5 @@ https://github.com/Avoceous/avo-radarchart-js/assets/63419938/7da52248-875b-40fc
   updateMode();
 
 <!-- Contributed by Avoceous, Ceedit Network, Bitweon, One Bit Space --> 
-  </script>
+  
   
