@@ -84,6 +84,8 @@ https://github.com/Avoceous/avo-radarchart-js/assets/63419938/7da52248-875b-40fc
   
   updateMode();
 
-<!-- Contributed by Avoceous, Ceedit Network, Bitweon, One Bit Space --> 
+
+
+// Contributed by Avoceous, Ceedit Network, Bitweon, One Bit Space
   
   
