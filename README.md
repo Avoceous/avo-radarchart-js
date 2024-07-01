@@ -50,6 +50,9 @@ The datasets for AI tools were randomly written, just for Radar Chart illustrati
     ]
   };
 
+// Contributed by Avoceous, Bitweon, Ceedit Network, One Bit Space
+
+
   // Configuration object for the 6th radar chart
   
   const config6 = {
